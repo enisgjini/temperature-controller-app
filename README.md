@@ -1,70 +1,99 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Temperature Controller Application
 
-## Available Scripts
+I build a temperature control app where users can increment/decrement temperature and the 
+background color changes based on temperature.
+And show toast in Albania Language who said **"Kujdes ! Temperature e lartë"**
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Topics covered:​
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - Hooks
+ - Components 
+ - useState().​
 
-### `npm test`
+## Authors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [@enisgjini](https://github.com/enisgjini)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Badges
+[![Netlify Status](https://api.netlify.com/api/v1/badges/61b91e89-2d7a-4520-b0be-862ec749fc19/deploy-status)](https://app.netlify.com/sites/temperature-controller/deploys)
+## Color Reference
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Background Color #1 | #FFFFFF |
+| Background Color #2 | #EBEBEB |
+| Background Color #3 | #CE0000 |
+| Text Color #1 | #FFFFFF |
+| Text Color #2 | #000000 |
+| Border Color #2 | #000000 |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Font Reference
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Font Family FF  | Font Size FS | Font Weight FW | Line Height LW | Occurrences        |
+| --------------- | ------------ | -------------- | -------------- | ------------------ |
+| Times New Roman | 16px         | 400            | Normal         | FFx1 FSx1 FWx1 LWx1|
+| Fira Sans       | 16px & 64px  | 400            | Normal         | FFx1 FSx10 FWx10 LWx10|
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Media Queries Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Media queries   | Occurrences        |
+| --------------- | ------------------ |
+| Only screen and (max-width:480px) | 2 |
+|Print|1|  
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are always welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Demo
 
-### `npm run build` fails to minify
+https://temperature-controller.netlify.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/enisgjini/temperature-controller-app.git
+```
+
+Go to the project directory
+
+```bash
+  cd temperature-controller-app
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/gtP2gjQ/smartmockups-l837e9cj.jpg)
+
