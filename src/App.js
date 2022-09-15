@@ -97,7 +97,6 @@ const App = () => {
       caktoNgjyren("cold");
     }
   };
-  s;
 
   return (
     <>
