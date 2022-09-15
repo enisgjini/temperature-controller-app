@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+body {
+  font-family: "Fira Sans", sans-serif;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+  background-color: #ebebeb;
+  opacity: 1;
+  background-image: radial-gradient(#ffffff 2px, #ebebeb 2px);
+  background-size: 40px 40px;
+}
+
+.app-container {
+  height: 250px;
+  width: 300px;
+  border: 1px solid transparent;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 32px 46px 12px rgba(0, 0, 0, 0.1);
+}
+
+.temperature-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.temperature-display {
+  display: flex;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  transition: background 0.5s;
+  font-family: "Fira Sans", sans-serif;
+}
+
+button {
+  border-radius: 15px;
+  height: 75px;
+  width: 75px;
+  font-size: 32px;
+  color: #ffffff;
+  background-color: #ffffff;
+  transition: 0.5s;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  align-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* button:focus {
+  outline: 0;
+} */
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cold {
+  background: #015aa8;
+}
+
+.hot {
+  background: #ce0000;
+}
+
+.second-cold {
+  background-color: aqua;
+}
